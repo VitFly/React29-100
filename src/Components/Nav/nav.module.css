@@ -1,0 +1,21 @@
+.nav{
+    grid-area: n;
+    background-color: rgb(199, 156, 64);
+  }
+.nav__link{
+  text-align: center;
+  padding-top: 1.2em;
+  font-size: 18px;
+}
+.nav__link a{
+  text-decoration: none;
+  color: rgb(236, 236, 207); 
+  font-style: italic;
+}
+.nav__link a:hover{
+  color: gold;
+  transition: 0.3s;
+}
+.nav__link a.active{
+  color: gold;
+}

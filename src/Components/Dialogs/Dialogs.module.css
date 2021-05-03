@@ -1,0 +1,21 @@
+/* .block{
+  grid-area: c;
+    background-color:  cornflowerblue;
+} */
+
+.dialogs{ 
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogs__item{
+  padding: 10px;
+}
+.dialogs__item .active{
+  color: gold;
+}
+.dialogs__item__items{
+
+}
+.messages{
+  padding: 10px;
+}

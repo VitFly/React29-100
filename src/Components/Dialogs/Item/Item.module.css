@@ -1,0 +1,7 @@
+.dialogs__item__items a{
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(238, 212, 145);
+    padding-left: 17%;
+}
