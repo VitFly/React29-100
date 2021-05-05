@@ -1,13 +1,17 @@
 import React from 'react';
 import k from './profile.module.css';
-import Articles from './Atrticles/Articles'
 import ProfileInfo from './ProfileInfo/ProfileInfo';
+import Posts from './MyPosts/Posts';
 
-const Profile = () => {
+ 
+
+const Profile = (props) => {
+
+
     return (
         <div className={k.content} >
           <ProfileInfo />
-          <Articles />
+          <Posts mypost={props.mypost} />
       </div>
     )
 }
