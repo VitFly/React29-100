@@ -3,5 +3,28 @@
 }
 .ava__description{
   color: gold;
-  padding-left: 6%;
+  padding-left: 9%;
+}
+.button{
+  text-align: center;
+  color: gold;
+  font-size: 21px;
+  text-decoration: wavy;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ava img{
+  width: 350px;
+}
+.ava{
+  display: flex;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.description{
+  font-size: 26px;
+  color: gold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  padding-top: 50px;
+  padding-left: 80px;
 }

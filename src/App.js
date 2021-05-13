@@ -9,28 +9,28 @@ import  Music from './Components/Musicc/Music'
 import  Settings from './Components/Settingss/Settings'
 import  AboutUs from './Components/AboutUs/AboutUs';
 
-import {BrowserRouter, Route} from 'react-router-dom'
+import {Route} from 'react-router-dom'
+import Friends from './Components/Friends/Friends';
 
 const App = (props)  => {
 
   return (
-    <BrowserRouter>
       <div className='app-wrapper'>
         <Header />
         <Nav />
           <div className='App__wrapper__content'>   
 
-            <Route path='/profile' render={ () => <Profile mypost={props.mypost} /> }/> 
-            <Route path='/dialogs' render={ () => <Dialogs dialogs={props.dialogs} message={props.message} /> }/>
+            <Route path='/profile' render={ () => <Profile mypost={props.State.StatePosts.poste} addPost={props.addPost} /> }/> 
+            <Route path='/dialogs' render={ () => <Dialogs dialogs={props.State.StateDialogs.dialog} message={props.State.StateDialogs.message} /> }/>
 
             
             <Route path='/news' component={News}/> 
             <Route path='/music' component={Music}/>
             <Route path='/settings' component={Settings}/>
             <Route path='/aboutus' component={AboutUs}/>
+            <Route path='/friends' component={Friends}/>
           </div>
       </div> 
-    </BrowserRouter>
   );
 }
 

@@ -19,3 +19,26 @@
 .nav__link a.active{
   color: gold;
 }
+.frineds img{
+  width: 70px;
+    display: inline-flex;
+    flex-direction: row;
+  border-radius: 60%;
+  margin-top: 12%;
+}
+.names{
+  padding-top: 5%;
+  word-spacing: 19px;
+  color: azure;
+  font-size: 24px;
+  font-weight: 500;
+}
+.nav__link__last{
+  text-align: center;
+  padding-top: 2.8em;
+  font-size: 27px;
+}
+.nav__link__last a{
+  text-decoration: none;
+  color: white;
+}
